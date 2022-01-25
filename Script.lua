@@ -1578,9 +1578,9 @@ function CreateMenu(NewPosition) -- Create Menu
 		Visible		= true;
 	});
 	Menu:AddMenuInstance('TopBarText', 'Text', {
-		Size 		= 25;
+		Size 		= 27;
 		Position	= shared.MenuDrawingData.Instances.TopBarTwo.Position + V2New(25, 10);
-		Text		= Bucky Esp';
+		Text		= 'Bucky ESP';
 		Color		= Colors.Secondary.Light;
 		Visible		= true;
 		Transparency= 1; -- proto outline fix
@@ -1588,9 +1588,9 @@ function CreateMenu(NewPosition) -- Create Menu
 		OutlineOpacity = 0.5;
 	});
 	Menu:AddMenuInstance('TopBarTextBR', 'Text', {
-		Size 		= 18;
-		Position	= shared.MenuDrawingData.Instances.TopBarTwo.Position + V2New(BaseSize.X - 75, 25);
-		Text		= 'radee';
+		Size 		= 20;
+		Position	= shared.MenuDrawingData.Instances.TopBarTwo.Position + V2New(BaseSize.X - 100, 25);
+		Text		= 'by random 5ky';
 		Color		= Colors.Secondary.Light;
 		Visible		= true;
 		Transparency= 1;
